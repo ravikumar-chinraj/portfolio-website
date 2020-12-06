@@ -43,12 +43,11 @@
 	<br>
 	<br>
 	<br>
-	<br> Click here to download my resume
 	<br>
-	<c:forEach var="resume" items="${files}">
-		<a href="/file/${resume.getName()}"><c:out value="${resume.getName()}" /></a> 
-		<c:out value="${resume.length()/1024}" /> KB<br>
-	</c:forEach>
+	<center>
+		Click here to download my resume <br> <br>
+		 <a href="/file">RESUME.pdf</a>
+	</center>
 	<br>
 	<br>
 	<br>
