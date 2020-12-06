@@ -33,7 +33,7 @@
 </head>
 <body>
 	<div class="topleft">
-		<a href="/index">Home</a>
+		<a href="/">Home</a>
 	</div>
 	<div class="topright">Resume &nbsp; <a href="/about">About Me</a></div>
 	<br>
@@ -46,7 +46,7 @@
 	<br>
 	<center>
 		Click here to download my resume <br> <br>
-		 <a href="/file">RESUME.pdf</a>
+		 <a href="https://s3.ap-south-1.amazonaws.com/ravikumar.cloud/Ravikumar's+Resume.pdf">RESUME.pdf</a>
 	</center>
 	<br>
 	<br>

@@ -30,7 +30,7 @@
 
 </head>
 <body>
-	<div class="topleft"><a href="/index">Home</a></div>
+	<div class="topleft"><a href="/">Home</a></div>
 	<div class="topright"><a href="/resume">Resume</a> &nbsp; About Me</div>
 	<br>
 	<hr
