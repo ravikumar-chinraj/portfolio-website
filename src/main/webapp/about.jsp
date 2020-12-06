@@ -31,7 +31,7 @@
 </head>
 <body>
 	<div class="topleft"><a href="/index">Home</a></div>
-	<div class="topright">Resume &nbsp; About Me</div>
+	<div class="topright"><a href="/resume">Resume</a> &nbsp; About Me</div>
 	<br>
 	<hr
 		style="height: 2px; border-width: 0; color: gray; background-color: gray">

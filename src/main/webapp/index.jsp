@@ -31,7 +31,7 @@
 </head>
 <body>
     <div class="topleft">Home</div>
-    <div class="topright">Resume &nbsp; About Me</div>
+    <div class="topright"><a href="/resume">Resume</a> &nbsp; <a href="/about">About Me</a></div>
 	<br> <hr style="height:2px;border-width:0;color:gray;background-color:gray" > <br> <br> <br>
 	<center><h2>Thanks for visiting my site !!!</h2></center>
 	<br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br>

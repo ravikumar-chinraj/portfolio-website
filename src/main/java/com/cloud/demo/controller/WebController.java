@@ -1,38 +1,27 @@
 package com.cloud.demo.controller;
 
 import java.io.BufferedOutputStream;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
-
-import com.cloud.demo.service.WebService;
 
 @Controller
 public class WebController {
 	
-	@Autowired
-	WebService service;
-	
-	@RequestMapping("/index")
-	public ModelAndView function() {
-		 ModelAndView mv = new ModelAndView("index.jsp");  
-	    return mv; 
+	@RequestMapping("/")
+	public String function() {
+		return "index";
 	}
 	
 	@RequestMapping("/about")
-	public ModelAndView about() {
-		ModelAndView mv = new ModelAndView("about.jsp");  
-	    return mv; 
+	public String about() {
+		return "about";
 	}
 
 	String name = "Ravikumar's Resume.pdf";
@@ -43,7 +32,7 @@ public class WebController {
 		return "resume.jsp";
 	}
 	
-	@RequestMapping("/file")
+	@RequestMapping("/resume/file")
 	@ResponseBody
 	public void show(HttpServletResponse response) {
 
