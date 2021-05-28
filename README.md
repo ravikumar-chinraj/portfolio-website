@@ -1,3 +1,4 @@
 # ravikumar.cloud
 
-My Own portofolio Website
+- My Own portofolio Website
+- Created using SpringBoot and Deployed in AWS
