@@ -86,10 +86,14 @@ h3 {
 			&nbsp; &nbsp;
 			<button
 				onclick="location.href='https://www.linkedin.com/in/ravikumar-chinraj-856236136/'"
-				type="button"><h3>LinkedIn</h3></button>
+				type="button">
+				<h3>LinkedIn</h3>
+			</button>
 			&nbsp; &nbsp;
 			<button onclick="location.href='https://github.com/C-Ravikumar/'"
-				type="button"><h3>GitHub</h3></button>
+				type="button">
+				<h3>GitHub</h3>
+			</button>
 			<br> <br>
 
 			<h3>Summary :</h3>
@@ -99,14 +103,16 @@ h3 {
 			&nbsp; &nbsp; &nbsp; &nbsp; Serving as a hands-on subject matter
 			expert for DevOps and Automation in an AWS infrastructure environment 
 			<br> <br> -->
-            <br>
+			<br>
 			<h3>Skills :</h3>
 			<ul>
-				<li>Languages -> Java, Python</li>
-				<li>Cloud -> AWS, GCP, Azure</li>
-				<li>DevOps ->  Git, Jenkins, Ansible, Docker, Kubernetes, Terraform</li>
-				<li>Web Technologies -> HTML, CSS, JavaScript, XML, JSON</li>
-				<li>Fremeworks -> Spring, Hibernate, Spring MVC, Log4j, Maven</li>
+				<li>Java</li>
+				<li>Python</li>
+				<li>AWS Cloud</li>
+				<li>GCP Cloud</li>
+				<li>Azure Cloud</li>
+				<li>SpringBoot</li>
+				<li>Html, CSS, Javascript</li>
 			</ul>
 			<br>
 			<button
