@@ -81,7 +81,7 @@ a.button {
 			<h2>Thank you for visiting my site !!!</h2>
 			<br> <br>
 			<button
-				onclick="location.href='https://s3.ap-south-1.amazonaws.com/ravikumar.cloud/Resume.pdf'"
+				onclick="location.href='https://s3.ap-south-1.amazonaws.com/rchinraj.cloud/Resume.pdf'"
 				type="button">
 				<h3>Click here</h3>
 			</button>
@@ -93,7 +93,7 @@ a.button {
 			<div>
 				<hr>
 			</div>
-			<div class="bottomright">All rights reserved @ 2020-21</div>
+			<div class="bottomright">All rights reserved &#169; 2020-21</div>
 	</div>
 </body>
 
