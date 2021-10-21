@@ -106,15 +106,13 @@ h3 {
 			<br>
 			<h3>Skills :</h3>
 			<ul>
-				<li>Java </li>
-				<li>Python, Shell Scripting </li>
+				<li>Java, Python </li>
 				<li>AWS, Azure, GCP </li>
-				<li>Git, Jenkins</li>
-				<li>Ansible, Chef, Pupprt, SaltStack
-				<li>Docker, Kubernetes, EKS, AKS, GKE </li>
-				<li>Terraform, CloudFormation </li>
-				<li>Maven, SpringBoot </li>
-				<li>Html, CSS, Javascript </li>
+				<li>Git, Jenkins, Ansible, Chef</li>
+				<li>Docker, Kubernetes </li>
+				<li>Shell Scripting, Terraform</li>
+				<li>SpringBoot, Maven </li>
+				<li>Html, CSS </li>
 			</ul>
 			<br>
 			<button
