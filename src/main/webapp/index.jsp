@@ -81,7 +81,7 @@ a.button {
 			<h2>Thank you for visiting my site !!!</h2>
 			<br> <br>
 			<button
-				onclick="location.href='https://s3.ap-south-1.amazonaws.com/rchinraj.cloud/Resume.pdf'"
+				onclick="location.href='https://s3.ap-south-1.amazonaws.com/ravi.cloud/Ravikumar_Resume.pdf'"
 				type="button">
 				<h3>Click here</h3>
 			</button>
