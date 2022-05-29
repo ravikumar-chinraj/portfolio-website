@@ -97,8 +97,8 @@ h3 {
 			<br> <br>
 
 			<h3>Summary :</h3>
-			&nbsp; Dynamic and creative cloud engineer with over 2+ years of experience. 
-			Eager to support the organization to adopt with the cloud <br>
+			&nbsp; Dynamic and creative cloud engineer with over 3+ years of experience.
+			Eager to support the organization to adopt with the cloud.<br>
 			<!-- &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 			&nbsp; &nbsp; &nbsp; &nbsp; Serving as a hands-on subject matter
 			expert for DevOps and Automation in an AWS infrastructure environment 
@@ -106,13 +106,13 @@ h3 {
 			<br>
 			<h3>Skills :</h3>
 			<ul>
-				<li>Java, Python </li>
-				<li>AWS, Azure, Google Cloud</li>
-				<li>Git, Jenkins, Ansible, Chef</li>
-				<li>Docker, Kubernetes </li>
-				<li>Shell/Bash Scripting, Terraform</li>
-				<li>SpringBoot, Maven </li>
-				<li>Html, CSS </li>
+				<li>Python - Java</li>
+				<li>Linux/Unix - Windows</li>
+				<li>AWS - GCP - Azure</li>
+				<li>SpringBoot - Maven </li>
+				<li>Docker - Kubernetes </li>
+				<li>Git - Jenkins - Ansible - Chef</li>			
+				<li>Shell/Bash Scripting -  Terraform</li>
 			</ul>
 			<br>
 			<button
