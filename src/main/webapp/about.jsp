@@ -111,7 +111,7 @@ h3 {
 				<li>AWS - Azure - GCP</li>
 				<li>Docker - Kubernetes </li>
 				<li>Git - Jenkins - Ansible</li>			
-				<li>Terraform - Shell Scriptin</li>
+				<li>Terraform - Shell Scripting</li>
 			</ul>
 			<br>
 			<button
