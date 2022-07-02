@@ -107,12 +107,11 @@ h3 {
 			<h3>Skills :</h3>
 			<ul>
 				<li>Python - Java</li>
-				<li>Linux/Unix - Windows</li>
-				<li>AWS - GCP - Azure</li>
-				<li>SpringBoot - Maven </li>
+				<li>Linux - Windows</li>
+				<li>AWS - Azure - GCP</li>
 				<li>Docker - Kubernetes </li>
-				<li>Git - Jenkins - Ansible - Chef</li>			
-				<li>Shell/Bash Scripting -  Terraform</li>
+				<li>Git - Jenkins - Ansible</li>			
+				<li>Terraform - Shell Scriptin</li>
 			</ul>
 			<br>
 			<button
@@ -126,7 +125,7 @@ h3 {
 		<div>
 			<hr>
 		</div>
-		<div class="bottomright">All rights reserved &#169; 2020-21</div>
+		<div class="bottomright">All rights reserved &#169; 2020-22</div>
 	</div>
 </body>
 </html>
