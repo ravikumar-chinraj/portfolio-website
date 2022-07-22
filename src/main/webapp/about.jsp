@@ -85,7 +85,7 @@ h3 {
 			<h3>Profile :</h3>
 			&nbsp; &nbsp;
 			<button
-				onclick="location.href='https://www.linkedin.com/in/ravikumar-chinraj-856236136/'"
+				onclick="location.href='https://www.linkedin.com/in/ravikumar-chinraj/'"
 				type="button">
 				<h3>LinkedIn</h3>
 			</button>
@@ -111,7 +111,7 @@ h3 {
 				<li>AWS - Azure - GCP</li>
 				<li>Docker - Kubernetes </li>
 				<li>Git - Jenkins - Ansible</li>			
-				<li>Terraform - Shell Scripting</li>
+				<li>Terraform - Shell Script</li>
 			</ul>
 			<br>
 			<button
