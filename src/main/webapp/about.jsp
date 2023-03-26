@@ -106,12 +106,12 @@ h3 {
 			<br>
 			<h3>Skills :</h3>
 			<ul>
-				<li>Python - Java</li>
-				<li>Linux - Windows</li>
-				<li>AWS - Azure - GCP</li>
+				<li>Python </li>
+				<li>Linux - Windows </li>
+				<li>AWS - Azure - GCP </li>
+				<li>Git - Jenkins - Ansible </li>
 				<li>Docker - Kubernetes </li>
-				<li>Git - Jenkins - Ansible</li>			
-				<li>Terraform - Shell Script</li>
+				<li>Terraform - Shell Scripting </li>
 			</ul>
 			<br>
 			<button
