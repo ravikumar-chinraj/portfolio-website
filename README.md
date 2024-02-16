@@ -1,4 +1,4 @@
-# ravikumar.cloud
+# Portfolio website
 
-- Portfolio website
-- Created using SpringBoot(Java) and Deployed it into AWS cloud using Elastic BeanStalk (PaaS)
+- Created using SpringBoot(Java)
+- Using Dockerfile create a docker image and deploy into Azure EKS
