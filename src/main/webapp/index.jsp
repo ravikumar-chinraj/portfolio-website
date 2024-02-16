@@ -97,11 +97,11 @@ h3 {
 			<br> <br>
 
 			<h3>Summary :</h3>
-			&nbsp;DevOps engineer with over 4+ years of experience designing,
-			implementing, and managing robust CI/CD pipelines. <br> &nbsp;
+			&nbsp;Experienced DevOps Engineer with over 4+ years of proven expertise in optimizing and 
+			elevating software development and deployment workflows. <br> &nbsp;
 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-			&nbsp; Passionate about optimizing software delivery and strong
-			problem-solving skills. <br>
+			&nbsp; Architecting CI/CD pipelines, implementing infrastructure as code (IAC) practices, 
+			and driving automation initiatives. <br>
 			<!-- &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 			&nbsp; &nbsp; &nbsp; &nbsp; Serving as a hands-on subject matter
 			expert for DevOps and Automation in an AWS infrastructure environment 
@@ -109,9 +109,9 @@ h3 {
 			<br>
 			<h3>Skills :</h3>
 			<ul>
-				<li>Python</li>
+				<li>Python, Java</li>
 				<li>AWS, Azure Cloud</li>
-				<li>Linux, Windows OS</li>
+				<li>Linux/Unix, Windows</li>
 				<li>Git, Jenkins, Ansible</li>
 				<li>Docker, Kubernetes</li>
 				<li>Terraform, Bash Scripting</li>
@@ -128,7 +128,7 @@ h3 {
 		<div>
 			<hr>
 		</div>
-		<div class="bottomright">All rights reserved &#169; 2023</div>
+		<div class="bottomright">All rights reserved &#169; 2024</div>
 	</div>
 </body>
 </html>
