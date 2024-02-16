@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cloud</groupId>
-	<artifactId>ravikumar.cloud</artifactId>
-	<version>1</version>
+	<artifactId>pottfolio-website</artifactId>
+	<version>2.0</version>
 	<packaging>war</packaging>
-	<name>ravikumar.cloud</name>
+	<name>pottfolio-website</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
