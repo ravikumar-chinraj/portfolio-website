@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>protfolio-website</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>portfolio-website</artifactId>
+	<version>1</version>
 	<packaging>war</packaging>
-	<name>protfolio-website</name>
+	<name>portfolio-website</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
@@ -29,12 +29,12 @@
     <artifactId>tomcat-jasper</artifactId>
     <version>11.0.0-M17</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl -->
+<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl
 <dependency>
     <groupId>javax.servlet.jsp.jstl</groupId>
     <artifactId>jstl</artifactId>
     <version>1.2</version>
-</dependency>
+</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
