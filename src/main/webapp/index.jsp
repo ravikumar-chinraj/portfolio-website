@@ -97,7 +97,7 @@ h3 {
 			<br> <br>
 
 			<h3>Summary :</h3>
-			&nbsp;Experienced DevOps Engineer with over 4+ years of proven expertise in optimizing and 
+			&nbsp;Experienced DevOps Engineer with over 4.9 years of proven expertise in optimizing and 
 			elevating software development and deployment workflows. <br> &nbsp;
 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 			&nbsp; Architecting CI/CD pipelines, implementing infrastructure as code (IAC) practices, 
