@@ -1,134 +1,125 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1" name="viewport"
-	content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About</title>
 <style>
 body {
-	background-image:
-		url("https://png.pngtree.com/background/20211215/original/pngtree-technology-cloud-upload-picture-image_1491652.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-
-	/* background-color: black; */
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-technology-cloud-upload-picture-image_1491652.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
 }
-
-.all {
-	color: white;
+a, a:visited {
+    color: white;
+    text-decoration: none;
 }
-
-a {
-	color: white;
+a.button-link {
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 4px 8px 4px 0;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
 }
-
-.topright {
-	position: absolute;
-	top: 10px;
-	right: 25px;
-	font-size: 23px;
+a.button-link:hover, a.button-link:focus {
+    background: rgba(255,255,255,0.2);
 }
-
 .topleft {
-	position: absolute;
-	top: 10px;
-	left: 25px;
-	font-size: 23px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-size: 23px;
 }
-
 .bottomright {
-	position: absolute;
-	bottom: 20px;
-	right: 50px;
-	font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    font-size: 15px;
 }
-
-div hr {
-	position: absolute;
-	left: 0;
-	bottom: 50px;
-	width: 100%;
-	margin: 0;
-}
-
 .details {
-	position: absolute;
-	top: 100px;
-	left: 25px;
-	font-size: 15px;
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    font-size: 15px;
+    max-width: 90vw;
+    background: rgba(0,0,0,0.4);
+    padding: 24px 32px 24px 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
-
+hr {
+    border: none;
+    height: 2px;
+    background-color: gray;
+    margin: 24px 0;
+    width: 100%;
+}
 h3 {
-	display: inline;
+    display: inline;
+    margin-right: 8px;
+}
+ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 </style>
-
 </head>
 <body>
-	<div class="all">
-		<div class="topleft">
-			<a href="/">Home</a>
-		</div>
-		<br>
-		<hr
-			style="height: 2px; border-width: 0; color: gray; background-color: gray">
-		<br>
-
-		<div class="details">
-			<h3>Contact :</h3>
-			<br> Ravikumar Chinraj <br> +91-9626746018 <br>
-			ravichinraj100@gmail.com <br> <br>
-			<h3>Profile :</h3>
-			&nbsp; &nbsp;
-
-			<button
-				onclick="location.href='https://www.linkedin.com/in/ravikumar-chinraj/'"
-				type="button">
-				<h3>LinkedIn</h3>
-			</button>
-			&nbsp; &nbsp;
-			<button onclick="location.href='https://github.com/C-Ravikumar/'"
-				type="button">
-				<h3>GitHub</h3>
-			</button>
-			<br> <br>
-
-			<h3>Summary :</h3>
-			&nbsp;Experienced DevOps Engineer with over 4.9 years of proven expertise in optimizing and 
-			elevating software development and deployment workflows. <br> &nbsp;
-			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-			&nbsp; Architecting CI/CD pipelines, implementing infrastructure as code (IAC) practices, 
-			and driving automation initiatives. <br>
-			<!-- &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-			&nbsp; &nbsp; &nbsp; &nbsp; Serving as a hands-on subject matter
-			expert for DevOps and Automation in an AWS infrastructure environment 
-			<br> <br> -->
-			<br>
-			<h3>Skills :</h3>
-			<ul>
-				<li>Python, Java</li>
-				<li>AWS, Azure Cloud</li>
-				<li>Linux/Unix, Windows</li>
-				<li>Git, Jenkins, Ansible</li>
-				<li>Docker, Kubernetes</li>
-				<li>Terraform, Bash Scripting</li>
-			</ul>
-			<br>
-			<button
-				onclick="location.href='https://s3.ap-south-1.amazonaws.com/ravi.cloud/Ravikumar_Resume.pdf'"
-				type="button">
-				<h3>Click here</h3>
-			</button>
-			to download my RESUME. <br> <br>
-		</div>
-
-		<div>
-			<hr>
-		</div>
-		<div class="bottomright">All rights reserved &#169; 2024</div>
-	</div>
+    <div class="all">
+        <nav class="topleft" aria-label="Main navigation">
+            <a href="/">Home</a>
+        </nav>
+        <hr>
+        <main class="details">
+            <section aria-labelledby="contact-heading">
+                <h3 id="contact-heading">Contact :</h3><br>
+                Ravikumar Chinraj <br>
+                <a href="tel:+919626746018">+91-9626746018</a> <br>
+                <a href="mailto:ravichinraj100@gmail.com">ravichinraj100@gmail.com</a>
+            </section>
+            <br>
+            <section aria-labelledby="profile-heading">
+                <h3 id="profile-heading">Profile :</h3>
+                <a class="button-link" href="https://www.linkedin.com/in/ravikumar-chinraj/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
+                <a class="button-link" href="https://github.com/C-Ravikumar/" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
+            </section>
+            <br>
+            <section aria-labelledby="summary-heading">
+                <h3 id="summary-heading">Summary :</h3>
+                <span>
+                    Experienced DevOps Engineer with over 4.9 years of proven expertise in optimizing and elevating software development and deployment workflows.<br>
+                    Architecting CI/CD pipelines, implementing infrastructure as code (IaC) practices, and driving automation initiatives.
+                </span>
+            </section>
+            <br>
+            <section aria-labelledby="skills-heading">
+                <h3 id="skills-heading">Skills :</h3>
+                <ul>
+                    <li>Python, Java</li>
+                    <li>AWS, Azure Cloud</li>
+                    <li>Linux/Unix, Windows</li>
+                    <li>Git, Jenkins, Ansible</li>
+                    <li>Docker, Kubernetes</li>
+                    <li>Terraform, Bash Scripting</li>
+                </ul>
+            </section>
+            <br>
+            <a class="button-link" href="https://s3.ap-south-1.amazonaws.com/ravi.cloud/Ravikumar_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">Download my RESUME</a>
+        </main>
+        <footer class="bottomright">
+            All rights reserved &#169; 2024
+        </footer>
+    </div>
 </body>
 </html>
