@@ -1,125 +1,39 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About</title>
+<meta name="description" content="Ravikumar Chinraj — DevOps Engineer specializing in cloud, Kubernetes, Terraform, CI/CD and automation.">
+<title>Ravikumar Chinraj | DevOps Engineer</title>
 <style>
-body {
-    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-technology-cloud-upload-picture-image_1491652.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    min-height: 100vh;
-}
-a, a:visited {
-    color: white;
-    text-decoration: none;
-}
-a.button-link {
-    display: inline-block;
-    padding: 8px 18px;
-    margin: 4px 8px 4px 0;
-    background: rgba(0,0,0,0.5);
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-a.button-link:hover, a.button-link:focus {
-    background: rgba(255,255,255,0.2);
-}
-.topleft {
-    position: absolute;
-    top: 10px;
-    left: 25px;
-    font-size: 23px;
-}
-.bottomright {
-    position: absolute;
-    bottom: 20px;
-    right: 50px;
-    font-size: 15px;
-}
-.details {
-    position: absolute;
-    top: 100px;
-    left: 25px;
-    font-size: 15px;
-    max-width: 90vw;
-    background: rgba(0,0,0,0.4);
-    padding: 24px 32px 24px 24px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-hr {
-    border: none;
-    height: 2px;
-    background-color: gray;
-    margin: 24px 0;
-    width: 100%;
-}
-h3 {
-    display: inline;
-    margin-right: 8px;
-}
-ul {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
+:root{--bg:#07111f;--panel:#0d1b2d;--panel2:#10243b;--text:#e8f0f7;--muted:#9db0c3;--accent:#55d6be;--accent2:#72a7ff;--border:rgba(255,255,255,.09);--shadow:0 20px 60px rgba(0,0,0,.28)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 15% 10%,rgba(85,214,190,.12),transparent 28%),radial-gradient(circle at 85% 20%,rgba(114,167,255,.12),transparent 28%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav-inner{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.4px}.brand span{color:var(--accent)}
+.nav-links{display:flex;gap:24px;font-size:.92rem;color:var(--muted)}.nav-links a:hover{color:var(--text)}
+.hero{min-height:calc(100vh - 68px);display:grid;align-items:center;padding:80px 0}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.98;margin:18px 0;letter-spacing:-3px;max-width:900px}h1 span{color:var(--accent)}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:720px;margin:24px 0}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{padding:12px 20px;border-radius:10px;border:1px solid var(--border);font-weight:700;transition:.2s}.btn.primary{background:var(--accent);color:#041019;border-color:var(--accent)}.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+section{padding:90px 0}.section-title{font-size:2rem;margin:0 0 12px}.section-lead{color:var(--muted);max-width:720px;margin:0 0 34px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,rgba(16,36,59,.92),rgba(13,27,45,.92));border:1px solid var(--border);border-radius:18px;padding:24px;box-shadow:var(--shadow)}.card h3{margin:0 0 10px}.card p{color:var(--muted);margin:0}.tag{display:inline-block;padding:5px 9px;margin:5px 5px 0 0;border:1px solid var(--border);border-radius:999px;color:#cfe0ee;font-size:.82rem}
+.timeline{display:grid;gap:16px}.role{border-left:2px solid var(--accent);padding:4px 0 4px 22px}.role h3{margin:0}.role .meta{color:var(--accent2);font-size:.9rem}.role p{color:var(--muted);margin:7px 0 0}
+.contact{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.contact a{background:var(--panel);border:1px solid var(--border);padding:10px 14px;border-radius:10px}
+footer{border-top:1px solid var(--border);padding:30px 0;color:var(--muted);font-size:.9rem}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.nav-links{display:none}.hero{padding:60px 0}h1{letter-spacing:-2px}section{padding:65px 0}}
 </style>
 </head>
 <body>
-    <div class="all">
-        <nav class="topleft" aria-label="Main navigation">
-            <a href="/">Home</a>
-        </nav>
-        <hr>
-        <main class="details">
-            <section aria-labelledby="contact-heading">
-                <h3 id="contact-heading">Contact :</h3><br>
-                Ravikumar Chinraj <br>
-                <a href="tel:+919626746018">+91-9626746018</a> <br>
-                <a href="mailto:ravichinraj100@gmail.com">ravichinraj100@gmail.com</a>
-            </section>
-            <br>
-            <section aria-labelledby="profile-heading">
-                <h3 id="profile-heading">Profile :</h3>
-                <a class="button-link" href="https://www.linkedin.com/in/ravikumar-chinraj/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
-                <a class="button-link" href="https://github.com/C-Ravikumar/" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
-            </section>
-            <br>
-            <section aria-labelledby="summary-heading">
-                <h3 id="summary-heading">Summary :</h3>
-                <span>
-                    Experienced DevOps Engineer with over 4.9 years of proven expertise in optimizing and elevating software development and deployment workflows.<br>
-                    Architecting CI/CD pipelines, implementing infrastructure as code (IaC) practices, and driving automation initiatives.
-                </span>
-            </section>
-            <br>
-            <section aria-labelledby="skills-heading">
-                <h3 id="skills-heading">Skills :</h3>
-                <ul>
-                    <li>Python, Java</li>
-                    <li>AWS, Azure Cloud</li>
-                    <li>Linux/Unix, Windows</li>
-                    <li>Git, Jenkins, Ansible</li>
-                    <li>Docker, Kubernetes</li>
-                    <li>Terraform, Bash Scripting</li>
-                </ul>
-            </section>
-            <br>
-            <a class="button-link" href="https://s3.ap-south-1.amazonaws.com/ravi.cloud/Ravikumar_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">Download my RESUME</a>
-        </main>
-        <footer class="bottomright">
-            All rights reserved &#169; 2024
-        </footer>
-    </div>
+<nav><div class="container nav-inner"><a class="brand" href="/">Ravi<span>.</span></a><div class="nav-links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+<main>
+<section class="hero"><div class="container"><div class="eyebrow">DevOps Engineer · Cloud · Automation</div><h1>Building reliable infrastructure and <span>delivery platforms.</span></h1><p>I’m Ravikumar Chinraj, a DevOps Engineer focused on CI/CD, cloud infrastructure, containers, Kubernetes, Terraform and automation.</p><div class="actions"><a class="btn primary" href="#projects">View my work</a><a class="btn" href="/about">About me</a><a class="btn" href="https://s3.ap-south-1.amazonaws.com/ravi.cloud/Ravikumar_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a></div></div></section>
+<section id="about"><div class="container"><h2 class="section-title">About</h2><p class="section-lead">I enjoy turning manual, fragile workflows into repeatable engineering systems — from infrastructure provisioning and deployment automation to containerized applications and cloud operations.</p><div class="grid"><div class="card"><h3>Automation first</h3><p>CI/CD pipelines, scripting and Infrastructure as Code to reduce manual effort and improve repeatability.</p></div><div class="card"><h3>Cloud & containers</h3><p>Hands-on focus across AWS, Azure, Docker and Kubernetes with production-minded deployment practices.</p></div><div class="card"><h3>Reliable delivery</h3><p>Security, observability, testing and operational simplicity are treated as part of the delivery lifecycle.</p></div></div></div></section>
+<section id="skills"><div class="container"><h2 class="section-title">Technical toolkit</h2><p class="section-lead">The technologies I use to build, deploy and operate software.</p><div class="grid"><div class="card"><h3>Cloud</h3><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">AKS</span></div><div class="card"><h3>DevOps</h3><span class="tag">Git</span><span class="tag">Jenkins</span><span class="tag">GitHub Actions</span><span class="tag">Ansible</span></div><div class="card"><h3>Infrastructure</h3><span class="tag">Terraform</span><span class="tag">Linux</span><span class="tag">Bash</span><span class="tag">Python</span></div><div class="card"><h3>Containers</h3><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Helm</span></div><div class="card"><h3>Development</h3><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">REST APIs</span></div><div class="card"><h3>Practices</h3><span class="tag">CI/CD</span><span class="tag">IaC</span><span class="tag">Automation</span><span class="tag">Monitoring</span></div></div></div></section>
+<section id="projects"><div class="container"><h2 class="section-title">Selected projects</h2><p class="section-lead">A portfolio should demonstrate engineering, not just list technologies.</p><div class="grid"><div class="card"><h3>Portfolio Platform</h3><p>Spring Boot application packaged for container deployment, with a lightweight JSP frontend.</p><div><span class="tag">Spring Boot</span><span class="tag">Java 21</span><span class="tag">Docker</span></div></div><div class="card"><h3>Script → Terraform</h3><p>Automation work focused on converting existing scripting patterns into Infrastructure as Code.</p><div><span class="tag">Terraform</span><span class="tag">Python</span><span class="tag">Automation</span></div></div><div class="card"><h3>Cloud & Kubernetes</h3><p>Infrastructure and deployment patterns for running containerized workloads on cloud Kubernetes platforms.</p><div><span class="tag">Azure</span><span class="tag">AKS</span><span class="tag">Kubernetes</span></div></div></div></div></section>
+<section><div class="container"><h2 class="section-title">How I approach DevOps</h2><div class="timeline"><div class="role"><h3>01 · Provision</h3><div class="meta">Infrastructure as Code</div><p>Define cloud infrastructure declaratively so environments are repeatable and reviewable.</p></div><div class="role"><h3>02 · Build</h3><div class="meta">Automated CI</div><p>Build, test and validate changes automatically before they reach deployment.</p></div><div class="role"><h3>03 · Deploy</h3><div class="meta">Containers & Kubernetes</div><p>Package applications consistently and deploy them using predictable release workflows.</p></div><div class="role"><h3>04 · Operate</h3><div class="meta">Reliability & observability</div><p>Monitor systems, automate repetitive operations and continuously improve delivery.</p></div></div></div></section>
+<section id="contact"><div class="container"><h2 class="section-title">Let’s connect</h2><p class="section-lead">Interested in DevOps, cloud infrastructure, automation or platform engineering? Feel free to reach out.</p><div class="contact"><a href="mailto:ravichinraj100@gmail.com">Email</a><a href="https://www.linkedin.com/in/ravikumar-chinraj/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/C-Ravikumar/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></section>
+</main>
+<footer><div class="container">© 2026 Ravikumar Chinraj · Built with Spring Boot</div></footer>
 </body>
 </html>
